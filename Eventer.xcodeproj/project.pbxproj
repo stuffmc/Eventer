@@ -10,6 +10,7 @@
 		4CB4A2541484DEF10078E13A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB4A2531484DEF10078E13A /* CoreFoundation.framework */; };
 		4CB4A2571484DEF10078E13A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4A2561484DEF10078E13A /* main.c */; };
 		4CB4A2591484DEF10078E13A /* Eventer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CB4A2581484DEF10078E13A /* Eventer.1 */; };
+		4CB4A2601484DF780078E13A /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB4A25F1484DF780078E13A /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		4CB4A2531484DEF10078E13A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		4CB4A2561484DEF10078E13A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		4CB4A2581484DEF10078E13A /* Eventer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Eventer.1; sourceTree = "<group>"; };
+		4CB4A25F1484DF780078E13A /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB4A2601484DF780078E13A /* CoreServices.framework in Frameworks */,
 				4CB4A2541484DEF10078E13A /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +67,7 @@
 		4CB4A2521484DEF10078E13A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CB4A25F1484DF780078E13A /* CoreServices.framework */,
 				4CB4A2531484DEF10078E13A /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
